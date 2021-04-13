@@ -29,4 +29,4 @@ products = [
     {"name": "laptop", "price": 1000}
 ]
 print(type(products))
-print(products)
+print(products[0].get("name"))
